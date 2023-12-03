@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: b3790b542971a4049829a4eee45d83df
+timeCreated: 1459534906
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: polySurface595
+    100002: polySurface596
+    100004: polySurface597
+    100006: polySurface598
+    100008: polySurface599
+    100010: polySurface600
+    100012: polySurface601
+    100014: polySurface602
+    100016: polySurface603
+    100018: polySurface604
+    100020: polySurface605
+    100022: polySurface606
+    100024: polySurface607
+    100026: polySurface608
+    100028: polySurface609
+    100030: //RootNode
+    100032: transform21
+    100034: transform22
+    100036: transform23
+    100038: transform24
+    100040: transform25
+    100042: transform26
+    100044: transform27
+    100046: transform28
+    100048: transform29
+    100050: transform30
+    100052: transform31
+    100054: transform32
+    100056: transform33
+    100058: transform34
+    400000: polySurface595
+    400002: polySurface596
+    400004: polySurface597
+    400006: polySurface598
+    400008: polySurface599
+    400010: polySurface600
+    400012: polySurface601
+    400014: polySurface602
+    400016: polySurface603
+    400018: polySurface604
+    400020: polySurface605
+    400022: polySurface606
+    400024: polySurface607
+    400026: polySurface608
+    400028: polySurface609
+    400030: //RootNode
+    400032: transform21
+    400034: transform22
+    400036: transform23
+    400038: transform24
+    400040: transform25
+    400042: transform26
+    400044: transform27
+    400046: transform28
+    400048: transform29
+    400050: transform30
+    400052: transform31
+    400054: transform32
+    400056: transform33
+    400058: transform34
+    2300000: polySurface609
+    3300000: polySurface609
+    4300000: polySurface609
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

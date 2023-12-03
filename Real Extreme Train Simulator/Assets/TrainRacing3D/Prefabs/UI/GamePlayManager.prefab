@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11470580}
+  m_Layer: 0
+  m_Name: GamePlayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e12fb9fe87b3ec4894b1138b95ad281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  f_DiffInSpeed: 0
+  _gSpeed: {fileID: 0}
+  _WarningText: {fileID: 0}
+  _SpeedLimitText: {fileID: 0}
+  _cColorForNormalText: {r: .835294127, g: .662745118, b: .352941185, a: 1}
+  _cColorForWaringText: {r: 1, g: 0, b: 0, a: 1}
+  _gAccelSlider: {fileID: 0}
+  _gDirectionChangeSlider: {fileID: 0}
+  _DiffTrains:
+  - {fileID: 100470, guid: de0d63965552e9547b3aa5e037d28b8d, type: 2}
+  - {fileID: 100084, guid: b5b83d504549e674c9ff1f8ebd2fe3ee, type: 2}
+  - {fileID: 100252, guid: 01695bf20f447cc4582948902130623e, type: 2}
+  - {fileID: 100370, guid: 068fc0373c3481e43bb6c7756c05beef, type: 2}
+  - {fileID: 100254, guid: f31d21c621494c84a92d5680991c66e4, type: 2}
+  - {fileID: 100082, guid: 7bf66b33c0fc70344a76a2562e9b5d31, type: 2}
+  - {fileID: 100296, guid: 6454bd65996bf8649a815cb6c9a31d76, type: 2}
+  - {fileID: 100254, guid: f7302764b8e5c15498501cf70d73c6ba, type: 2}
+  - {fileID: 100112, guid: baa9f05f8f3d41f43838999ea83c7610, type: 2}
+  - {fileID: 100358, guid: a7d5d166fafae8f4988b6e89962e6ca5, type: 2}
+  mb_IsGameStarted: 0
+  mb_IsTouchHasTexture: 0
+  mb_IsStationLeftSide: 0
+  _CurrentTrainObject: {fileID: 0}
+  yLowerLimitOfAccel: .0700000003
+  yHigherLimitOfAccel: .349999994
+  mb_IsBreak: 0
+  startButtonPos: {x: .140000001, y: .00999999978, z: 1}
+  _SoundImgs:
+  - {fileID: 21300000, guid: 1f67f862765057d478f0ce08a66cbfea, type: 3}
+  - {fileID: 21300000, guid: b2852d6080ecebf438b7bc649e83151f, type: 3}
+  _gHornImg: {fileID: 0}
+  mDirectionToChange: 0
+  _scrTrackChangeHandlerInOrder:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _StationTrigger: []
+  _StationRoadBlocker: []
+  _XPText: {fileID: 0}
+  _LevelComplete: {fileID: 0}
+  _LevelFailed: {fileID: 0}
+  _GamePlayUI: {fileID: 0}
+  _Pause: {fileID: 0}
+  _ExitPopUp: {fileID: 0}
+  _RatePopUp: {fileID: 0}
+  _SharePopUp: {fileID: 0}
+  _LevleNoTextures:
+  - {fileID: 21300000, guid: 1c1ad505fc7aa9e40aa9949ee6b5ea55, type: 3}
+  - {fileID: 21300000, guid: 928b960551246fb44825263742ef9805, type: 3}
+  - {fileID: 21300000, guid: 3743b01c42a3af2489ae17dacd5b8403, type: 3}
+  - {fileID: 21300000, guid: b2413214d935ce44a812385d027342db, type: 3}
+  - {fileID: 21300000, guid: 35a1ad773c08b4b468a32555779c1391, type: 3}
+  - {fileID: 21300000, guid: 5327bd622929a97419e8f9d9ac0ddf49, type: 3}
+  - {fileID: 21300000, guid: 85572beb7a141d54b97524b85611a61f, type: 3}
+  - {fileID: 21300000, guid: ef1000ff097bb3f4b988c971d017ce1a, type: 3}
+  - {fileID: 21300000, guid: 853357bd774f4164bbf70285d0c5d7c5, type: 3}
+  - {fileID: 21300000, guid: f133451f1c28541449822c1d2b631df7, type: 3}
+  - {fileID: 21300000, guid: 1b248d05e158cf144a8013b26f3ee0b8, type: 3}
+  - {fileID: 21300000, guid: 7efddf04dd4ecdd4aa00f36daa63b123, type: 3}
+  - {fileID: 21300000, guid: 8732770d56106f34ab2385240ac73811, type: 3}
+  - {fileID: 21300000, guid: aa39753ff1202e149b59c3467e1c680c, type: 3}
+  - {fileID: 21300000, guid: 80476adb5e068e041933ac2b7e5cceea, type: 3}
+  - {fileID: 21300000, guid: d236ad43071a0b14297c1e994e36c54d, type: 3}
+  - {fileID: 21300000, guid: 20a08847a4abeb64e8a20719934bb1d0, type: 3}
+  - {fileID: 21300000, guid: cf50c6f177ccfea4eb6f71946c7f68f7, type: 3}
+  - {fileID: 21300000, guid: ba3223ecee29eb54a920fdc3465aaaed, type: 3}
+  - {fileID: 21300000, guid: 91bef9a34d4139840a85b6c07da7d58e, type: 3}
+  - {fileID: 21300000, guid: ffae5fed0910b1247b58cf7d29c68547, type: 3}
+  - {fileID: 21300000, guid: 29ac85ce5d076934aa8de05f2a45a9e8, type: 3}
+  - {fileID: 21300000, guid: ab80b5dcf4d911646867ed23d585b405, type: 3}
+  - {fileID: 21300000, guid: a410419dfd2fedb40b4458c26f79c162, type: 3}
+  - {fileID: 21300000, guid: 11753b9fbfece3d4c931643283a4240c, type: 3}
+  - {fileID: 21300000, guid: e69d0943929eaf443832ef69b8b887e2, type: 3}
+  - {fileID: 21300000, guid: 5c1f93148bb6a1d41a3f97a411a3c64c, type: 3}
+  - {fileID: 21300000, guid: 9b005ebc0a96c764d855482f059c9753, type: 3}
+  - {fileID: 21300000, guid: b804fd4d016dfdc499c51f8106a5c3dc, type: 3}
+  - {fileID: 21300000, guid: 38e3e439f878a2242b053f29593c6cc4, type: 3}
+  - {fileID: 21300000, guid: 47842dd46982e55419c468d04e6d4f6e, type: 3}
+  - {fileID: 21300000, guid: 484092b3d39bf744fbcb5a559a4fe4b2, type: 3}
+  - {fileID: 21300000, guid: 32cdc17798b709f41ba07980308d76bb, type: 3}
+  - {fileID: 21300000, guid: 928001729e7a23347ba436193f4b1095, type: 3}
+  - {fileID: 21300000, guid: 28ff08c1d96d0224893382b66048f277, type: 3}
+  - {fileID: 21300000, guid: 8a103a37c3c2ea04fa76958b581d62ac, type: 3}
+  - {fileID: 21300000, guid: b5804870bf054044aa5c86e5d22c23d9, type: 3}
+  - {fileID: 21300000, guid: a2de27746b54b3642911bdbb07c54aec, type: 3}
+  - {fileID: 21300000, guid: 040af0cf6f6938d41bd2cda864bbca7f, type: 3}
+  - {fileID: 21300000, guid: 7fe07d06473c8b344818c6484fb1307f, type: 3}
+  _LFTexture:
+  - {fileID: 21300000, guid: 7285c70b900df0240bc07682aab3644e, type: 3}
+  - {fileID: 21300000, guid: d5513731b05eeb243924027cfd59456c, type: 3}
+  mb_isCrashed: 0
+  IsInstructionAvlaiable: 0
+  _StationCharacters: []
+--- !u!114 &11470580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4e0b02c50b67cf4083c09c72728ff7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: _SoundImgs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.size
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c1ad505fc7aa9e40aa9949ee6b5ea55,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 928b960551246fb44825263742ef9805,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3743b01c42a3af2489ae17dacd5b8403,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b2413214d935ce44a812385d027342db,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 35a1ad773c08b4b468a32555779c1391,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5327bd622929a97419e8f9d9ac0ddf49,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 85572beb7a141d54b97524b85611a61f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: ef1000ff097bb3f4b988c971d017ce1a,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 853357bd774f4164bbf70285d0c5d7c5,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: f133451f1c28541449822c1d2b631df7,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b248d05e158cf144a8013b26f3ee0b8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7efddf04dd4ecdd4aa00f36daa63b123,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[12]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8732770d56106f34ab2385240ac73811,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[13]
+      value: 
+      objectReference: {fileID: 21300000, guid: aa39753ff1202e149b59c3467e1c680c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: 80476adb5e068e041933ac2b7e5cceea,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: d236ad43071a0b14297c1e994e36c54d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: 20a08847a4abeb64e8a20719934bb1d0,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: cf50c6f177ccfea4eb6f71946c7f68f7,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[18]
+      value: 
+      objectReference: {fileID: 21300000, guid: ba3223ecee29eb54a920fdc3465aaaed,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: 91bef9a34d4139840a85b6c07da7d58e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LFTexture.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7285c70b900df0240bc07682aab3644e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LFTexture.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: d5513731b05eeb243924027cfd59456c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: ffae5fed0910b1247b58cf7d29c68547,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: 29ac85ce5d076934aa8de05f2a45a9e8,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: ab80b5dcf4d911646867ed23d585b405,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: a410419dfd2fedb40b4458c26f79c162,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: 11753b9fbfece3d4c931643283a4240c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[25]
+      value: 
+      objectReference: {fileID: 21300000, guid: e69d0943929eaf443832ef69b8b887e2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[26]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c1f93148bb6a1d41a3f97a411a3c64c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[27]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b005ebc0a96c764d855482f059c9753,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[28]
+      value: 
+      objectReference: {fileID: 21300000, guid: b804fd4d016dfdc499c51f8106a5c3dc,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[29]
+      value: 
+      objectReference: {fileID: 21300000, guid: 38e3e439f878a2242b053f29593c6cc4,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[30]
+      value: 
+      objectReference: {fileID: 21300000, guid: 47842dd46982e55419c468d04e6d4f6e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[31]
+      value: 
+      objectReference: {fileID: 21300000, guid: 484092b3d39bf744fbcb5a559a4fe4b2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[32]
+      value: 
+      objectReference: {fileID: 21300000, guid: 32cdc17798b709f41ba07980308d76bb,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[33]
+      value: 
+      objectReference: {fileID: 21300000, guid: 928001729e7a23347ba436193f4b1095,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[34]
+      value: 
+      objectReference: {fileID: 21300000, guid: 28ff08c1d96d0224893382b66048f277,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[35]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a103a37c3c2ea04fa76958b581d62ac,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[36]
+      value: 
+      objectReference: {fileID: 21300000, guid: b5804870bf054044aa5c86e5d22c23d9,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[37]
+      value: 
+      objectReference: {fileID: 21300000, guid: a2de27746b54b3642911bdbb07c54aec,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[38]
+      value: 
+      objectReference: {fileID: 21300000, guid: 040af0cf6f6938d41bd2cda864bbca7f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _LevleNoTextures.Array.data[39]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fe07d06473c8b344818c6484fb1307f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _SoundImgs.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f67f862765057d478f0ce08a66cbfea,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: _SoundImgs.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: b2852d6080ecebf438b7bc649e83151f,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

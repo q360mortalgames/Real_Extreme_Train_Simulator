@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 31866620a7ebdf94fb2fe2627ac2a088
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BuildingGeo1
+    100002: BuildingGeo10
+    100004: BuildingGeo2
+    100006: BuildingGeo3
+    100008: BuildingGeo4
+    100010: BuildingGeo5
+    100012: BuildingGeo6
+    100014: BuildingGeo7
+    100016: BuildingGeo8
+    100018: BuildingGeo9
+    100020: //RootNode
+    400000: BuildingGeo1
+    400002: BuildingGeo10
+    400004: BuildingGeo2
+    400006: BuildingGeo3
+    400008: BuildingGeo4
+    400010: BuildingGeo5
+    400012: BuildingGeo6
+    400014: BuildingGeo7
+    400016: BuildingGeo8
+    400018: BuildingGeo9
+    400020: //RootNode
+    2300000: BuildingGeo1
+    2300002: BuildingGeo10
+    2300004: BuildingGeo2
+    2300006: BuildingGeo3
+    2300008: BuildingGeo4
+    2300010: BuildingGeo5
+    2300012: BuildingGeo6
+    2300014: BuildingGeo7
+    2300016: BuildingGeo8
+    2300018: BuildingGeo9
+    3300000: BuildingGeo1
+    3300002: BuildingGeo10
+    3300004: BuildingGeo2
+    3300006: BuildingGeo3
+    3300008: BuildingGeo4
+    3300010: BuildingGeo5
+    3300012: BuildingGeo6
+    3300014: BuildingGeo7
+    3300016: BuildingGeo8
+    3300018: BuildingGeo9
+    4300000: BuildingGeo1
+    4300002: BuildingGeo2
+    4300004: BuildingGeo3
+    4300006: BuildingGeo4
+    4300008: BuildingGeo5
+    4300010: BuildingGeo6
+    4300012: BuildingGeo7
+    4300014: BuildingGeo8
+    4300016: BuildingGeo9
+    4300018: BuildingGeo10
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

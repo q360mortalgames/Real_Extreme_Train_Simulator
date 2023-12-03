@@ -1,0 +1,50 @@
+﻿using System;
+
+namespace UnityEngine
+{
+public delegate void CurrentState ();
+
+public enum GAME_STATE
+{
+	MAIN_MENU,
+	LOADING_PAGE,	
+	STORE_PAGE,
+	SETTINGS_PAGE,	
+	TRAIN_SELECTION,
+	MODE_SELECTION,
+	INGAME,
+	PAUSE_PAGE,
+	LEVEL_FAIL,
+	LEVEL_COMPLETE,
+}
+
+	public enum ITWEEN_EVENT
+	{
+		ON_COMPLETE,
+		LOOP,
+		ONCE,
+		REMOVE,
+	}
+
+public enum SOUND_CLIP
+{	
+	SD_MENU_BG,
+	SD_PLAY_BG,
+	SD_BUTTON,
+	SD_WATER_MENU,
+	SD_COIN,
+	SD_BTN_CLICK,
+	SD_OBSTACLE,
+	SD_BUY,
+	SD_BRAKE,
+	SD_FAIL,
+	SD_PAGE_SWIPE,
+	SD_ENGINE,
+	SD_WATER_IMPACT,
+	SD_WIN,
+	SD_LEVEL_FAIL,
+	SD_LOADING_PAGE,
+	SD_DEACCL,
+	SD_ACCL,
+}
+}

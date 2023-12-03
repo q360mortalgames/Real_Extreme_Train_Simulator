@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rock_08_Big
+  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2ae0a0d20ba0e764d920c1f6d9311e15, type: 3}
+          m_Scale: {x: 4, y: 4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c231b0a82bd4dac4889aa7e2f6c5a4f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Dif
+        second:
+          m_Texture: {fileID: 2800000, guid: ce854c53e0a3f1e49a469c1810bb8d3a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Nor
+        second:
+          m_Texture: {fileID: 2800000, guid: c231b0a82bd4dac4889aa7e2f6c5a4f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec
+        second:
+          m_Texture: {fileID: 2800000, guid: 2d817154a50e8ea4bab8fbb6509b00fa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .0300000031
+      data:
+        first:
+          name: _Gloss
+        second: .0149253728
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .74626863, g: .647269845, b: .517932713, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .716417909, g: .716417909, b: .716417909, a: 1}
+      data:
+        first:
+          name: _Diff_Color
+        second: {r: 1, g: .886755049, b: .738806009, a: 1}

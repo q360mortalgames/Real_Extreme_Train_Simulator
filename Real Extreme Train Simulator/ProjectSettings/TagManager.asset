@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ColorChanging
+  - Coin
+  - ClickEventPrefab
+  - BG
+  - SpeedTrigger
+  - DirectionTrigger
+  - Obstacle
+  - StationStopTrigger
+  - NotUi
+  - AIStartTrigger
+  - ParseProfile
+  - SliderCamera
+  - CityZen
+  - Head
+  - Explosions
+  - TrainDriver
+  - RaceWin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - WheelLayer
+  - StopTrigger
+  - AIObjectsLayer
+  - TreeLayer
+  - Loader
+  - Exitcamera
+  - UILayer
+  - unblur
+  - Doller
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - HideLayer
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

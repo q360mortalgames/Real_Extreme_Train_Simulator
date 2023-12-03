@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 4a57e31969112394896de39f161682ac
+timeCreated: 1455868090
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Fence
+    100002: Fence 1
+    100004: Fence12
+    100006: Fence13
+    100008: Fence14
+    100010: Fence15
+    100012: Fence16
+    100014: Fence6
+    100016: Ground
+    100018: Ground 1
+    100020: Ground 2
+    100022: Ground 3
+    100024: Ground 4
+    100026: Ground 5
+    100028: Ground 6
+    100030: Hut
+    100032: Hut 1
+    100034: Hut1
+    100036: Hut10
+    100038: Hut11
+    100040: Hut12
+    100042: Hut13
+    100044: Hut14
+    100046: Hut15
+    100048: Hut2
+    100050: Hut3
+    100052: Hut4
+    100054: Hut5
+    100056: Hut6
+    100058: Hut7
+    100060: Hut8
+    100062: Hut9
+    100064: //RootNode
+    100066: Ob
+    100068: Pot
+    100070: Pot1
+    100072: Pot2
+    100074: Pot3
+    100076: Ston
+    100078: Ston 1
+    100080: Ston1
+    100082: Ston2
+    100084: Stone
+    100086: Stone 1
+    100088: Stone 2
+    100090: Stone 3
+    100092: Stone 4
+    100094: Stone 5
+    100096: Stone1
+    100098: Stone10
+    100100: Stone11
+    100102: Stone12
+    100104: Stone13
+    100106: Stone14
+    100108: Stone15
+    100110: Stone16
+    100112: Stone17
+    100114: Stone18
+    100116: Stone19
+    100118: Stone2
+    100120: Stone20
+    100122: Stone21
+    100124: Stone22
+    100126: Stone23
+    100128: Stone24
+    100130: Stone25
+    100132: Stone26
+    100134: Stone27
+    100136: Stone3
+    100138: Stone4
+    100140: Stone5
+    100142: Stone6
+    100144: Stone7
+    100146: Stone8
+    100148: Stone9
+    100150: Wood
+    100152: Wood1
+    100154: Wood10
+    100156: Wood11
+    100158: Wood12
+    100160: Wood13
+    100162: Wood14
+    100164: Wood15
+    100166: Wood16
+    100168: Wood17
+    100170: Wood18
+    100172: Wood19
+    100174: Wood2
+    100176: Wood20
+    100178: Wood21
+    100180: Wood22
+    100182: Wood23
+    100184: Wood24
+    100186: Wood25
+    100188: Wood26
+    100190: Wood27
+    100192: Wood28
+    100194: Wood29
+    100196: Wood3
+    100198: Wood30
+    100200: Wood4
+    100202: Wood5
+    100204: Wood6
+    100206: Wood7
+    100208: Wood8
+    100210: Wood9
+    100212: polySurface1
+    100214: polySurface2
+    100216: polySurface3
+    100218: transform1
+    100220: transform2
+    100222: transform3
+    100224: Pot4
+    400000: Fence
+    400002: Fence 1
+    400004: Fence12
+    400006: Fence13
+    400008: Fence14
+    400010: Fence15
+    400012: Fence16
+    400014: Fence6
+    400016: Ground
+    400018: Ground 1
+    400020: Ground 2
+    400022: Ground 3
+    400024: Ground 4
+    400026: Ground 5
+    400028: Ground 6
+    400030: Hut
+    400032: Hut 1
+    400034: Hut1
+    400036: Hut10
+    400038: Hut11
+    400040: Hut12
+    400042: Hut13
+    400044: Hut14
+    400046: Hut15
+    400048: Hut2
+    400050: Hut3
+    400052: Hut4
+    400054: Hut5
+    400056: Hut6
+    400058: Hut7
+    400060: Hut8
+    400062: Hut9
+    400064: //RootNode
+    400066: Ob
+    400068: Pot
+    400070: Pot1
+    400072: Pot2
+    400074: Pot3
+    400076: Ston
+    400078: Ston 1
+    400080: Ston1
+    400082: Ston2
+    400084: Stone
+    400086: Stone 1
+    400088: Stone 2
+    400090: Stone 3
+    400092: Stone 4
+    400094: Stone 5
+    400096: Stone1
+    400098: Stone10
+    400100: Stone11
+    400102: Stone12
+    400104: Stone13
+    400106: Stone14
+    400108: Stone15
+    400110: Stone16
+    400112: Stone17
+    400114: Stone18
+    400116: Stone19
+    400118: Stone2
+    400120: Stone20
+    400122: Stone21
+    400124: Stone22
+    400126: Stone23
+    400128: Stone24
+    400130: Stone25
+    400132: Stone26
+    400134: Stone27
+    400136: Stone3
+    400138: Stone4
+    400140: Stone5
+    400142: Stone6
+    400144: Stone7
+    400146: Stone8
+    400148: Stone9
+    400150: Wood
+    400152: Wood1
+    400154: Wood10
+    400156: Wood11
+    400158: Wood12
+    400160: Wood13
+    400162: Wood14
+    400164: Wood15
+    400166: Wood16
+    400168: Wood17
+    400170: Wood18
+    400172: Wood19
+    400174: Wood2
+    400176: Wood20
+    400178: Wood21
+    400180: Wood22
+    400182: Wood23
+    400184: Wood24
+    400186: Wood25
+    400188: Wood26
+    400190: Wood27
+    400192: Wood28
+    400194: Wood29
+    400196: Wood3
+    400198: Wood30
+    400200: Wood4
+    400202: Wood5
+    400204: Wood6
+    400206: Wood7
+    400208: Wood8
+    400210: Wood9
+    400212: polySurface1
+    400214: polySurface2
+    400216: polySurface3
+    400218: transform1
+    400220: transform2
+    400222: transform3
+    400224: Pot4
+    2300000: Fence 1
+    2300002: Fence12
+    2300004: Fence13
+    2300006: Fence14
+    2300008: Fence15
+    2300010: Fence16
+    2300012: Fence6
+    2300014: Ground
+    2300016: Ground 1
+    2300018: Ground 2
+    2300020: Ground 3
+    2300022: Ground 4
+    2300024: Ground 5
+    2300026: Ground 6
+    2300028: Hut 1
+    2300030: Hut10
+    2300032: Hut11
+    2300034: Hut12
+    2300036: Hut13
+    2300038: Hut14
+    2300040: Hut15
+    2300042: Hut7
+    2300044: Hut8
+    2300046: Hut9
+    2300048: Ob
+    2300050: Pot
+    2300052: Pot1
+    2300054: Pot2
+    2300056: Pot3
+    2300058: Ston
+    2300060: Ston 1
+    2300062: Ston1
+    2300064: Ston2
+    2300066: Stone
+    2300068: Stone 1
+    2300070: Stone 2
+    2300072: Stone 3
+    2300074: Stone 4
+    2300076: Stone 5
+    2300078: Stone1
+    2300080: Stone10
+    2300082: Stone11
+    2300084: Stone12
+    2300086: Stone13
+    2300088: Stone14
+    2300090: Stone15
+    2300092: Stone16
+    2300094: Stone17
+    2300096: Stone18
+    2300098: Stone19
+    2300100: Stone2
+    2300102: Stone20
+    2300104: Stone21
+    2300106: Stone22
+    2300108: Stone23
+    2300110: Stone24
+    2300112: Stone25
+    2300114: Stone26
+    2300116: Stone27
+    2300118: Stone3
+    2300120: Stone4
+    2300122: Stone5
+    2300124: Stone6
+    2300126: Stone7
+    2300128: Stone8
+    2300130: Stone9
+    2300132: Wood
+    2300134: Wood1
+    2300136: Wood10
+    2300138: Wood11
+    2300140: Wood12
+    2300142: Wood13
+    2300144: Wood14
+    2300146: Wood15
+    2300148: Wood16
+    2300150: Wood17
+    2300152: Wood18
+    2300154: Wood19
+    2300156: Wood2
+    2300158: Wood20
+    2300160: Wood21
+    2300162: Wood22
+    2300164: Wood23
+    2300166: Wood24
+    2300168: Wood25
+    2300170: Wood26
+    2300172: Wood27
+    2300174: Wood28
+    2300176: Wood29
+    2300178: Wood3
+    2300180: Wood30
+    2300182: Wood4
+    2300184: Wood5
+    2300186: Wood6
+    2300188: Wood7
+    2300190: Wood8
+    2300192: Wood9
+    2300194: polySurface3
+    2300196: Pot4
+    3300000: Fence 1
+    3300002: Fence12
+    3300004: Fence13
+    3300006: Fence14
+    3300008: Fence15
+    3300010: Fence16
+    3300012: Fence6
+    3300014: Ground
+    3300016: Ground 1
+    3300018: Ground 2
+    3300020: Ground 3
+    3300022: Ground 4
+    3300024: Ground 5
+    3300026: Ground 6
+    3300028: Hut 1
+    3300030: Hut10
+    3300032: Hut11
+    3300034: Hut12
+    3300036: Hut13
+    3300038: Hut14
+    3300040: Hut15
+    3300042: Hut7
+    3300044: Hut8
+    3300046: Hut9
+    3300048: Ob
+    3300050: Pot
+    3300052: Pot1
+    3300054: Pot2
+    3300056: Pot3
+    3300058: Ston
+    3300060: Ston 1
+    3300062: Ston1
+    3300064: Ston2
+    3300066: Stone
+    3300068: Stone 1
+    3300070: Stone 2
+    3300072: Stone 3
+    3300074: Stone 4
+    3300076: Stone 5
+    3300078: Stone1
+    3300080: Stone10
+    3300082: Stone11
+    3300084: Stone12
+    3300086: Stone13
+    3300088: Stone14
+    3300090: Stone15
+    3300092: Stone16
+    3300094: Stone17
+    3300096: Stone18
+    3300098: Stone19
+    3300100: Stone2
+    3300102: Stone20
+    3300104: Stone21
+    3300106: Stone22
+    3300108: Stone23
+    3300110: Stone24
+    3300112: Stone25
+    3300114: Stone26
+    3300116: Stone27
+    3300118: Stone3
+    3300120: Stone4
+    3300122: Stone5
+    3300124: Stone6
+    3300126: Stone7
+    3300128: Stone8
+    3300130: Stone9
+    3300132: Wood
+    3300134: Wood1
+    3300136: Wood10
+    3300138: Wood11
+    3300140: Wood12
+    3300142: Wood13
+    3300144: Wood14
+    3300146: Wood15
+    3300148: Wood16
+    3300150: Wood17
+    3300152: Wood18
+    3300154: Wood19
+    3300156: Wood2
+    3300158: Wood20
+    3300160: Wood21
+    3300162: Wood22
+    3300164: Wood23
+    3300166: Wood24
+    3300168: Wood25
+    3300170: Wood26
+    3300172: Wood27
+    3300174: Wood28
+    3300176: Wood29
+    3300178: Wood3
+    3300180: Wood30
+    3300182: Wood4
+    3300184: Wood5
+    3300186: Wood6
+    3300188: Wood7
+    3300190: Wood8
+    3300192: Wood9
+    3300194: polySurface3
+    3300196: Pot4
+    4300000: Fence
+    4300002: Stone
+    4300004: Ob
+    4300006: Pot
+    4300008: Pot1
+    4300010: Pot2
+    4300012: Pot3
+    4300014: Fence6
+    4300016: Fence12
+    4300018: Fence15
+    4300020: Fence13
+    4300022: Fence16
+    4300024: Fence14
+    4300026: Hut13
+    4300028: Stone
+    4300030: Stone15
+    4300032: Stone16
+    4300034: Stone17
+    4300036: Stone18
+    4300038: Stone19
+    4300040: Stone20
+    4300042: Stone21
+    4300044: Ground
+    4300046: Wood23
+    4300048: Wood22
+    4300050: Ground
+    4300052: Wood3
+    4300054: Wood2
+    4300056: Wood
+    4300058: Hut8
+    4300060: Hut7
+    4300062: Stone14
+    4300064: Stone13
+    4300066: Stone12
+    4300068: Stone11
+    4300070: Stone10
+    4300072: Stone9
+    4300074: Stone8
+    4300076: Stone7
+    4300078: Stone6
+    4300080: Stone5
+    4300082: Stone4
+    4300084: Stone3
+    4300086: Stone2
+    4300088: Stone1
+    4300090: Stone
+    4300092: Ston
+    4300094: Wood1
+    4300096: Wood30
+    4300098: Wood29
+    4300100: Wood28
+    4300102: Wood27
+    4300104: Ston
+    4300106: Ston1
+    4300108: Ston2
+    4300110: Ground
+    4300112: Hut15
+    4300114: Hut14
+    4300116: Wood17
+    4300118: Ground
+    4300120: Stone
+    4300122: Hut11
+    4300124: Wood26
+    4300126: Wood25
+    4300128: Wood24
+    4300130: Stone24
+    4300132: Stone23
+    4300134: Stone22
+    4300136: Stone
+    4300138: Ground
+    4300140: Hut12
+    4300142: Wood16
+    4300144: Wood15
+    4300146: Wood14
+    4300148: Wood13
+    4300150: Wood12
+    4300152: Wood11
+    4300154: Wood10
+    4300156: Wood9
+    4300158: Wood8
+    4300160: Ground
+    4300162: Hut
+    4300164: Wood21
+    4300166: Wood20
+    4300168: Stone27
+    4300170: Stone26
+    4300172: Stone25
+    4300174: Stone
+    4300176: Ground
+    4300178: Hut10
+    4300180: Hut9
+    4300182: Wood19
+    4300184: Wood18
+    4300186: Wood7
+    4300188: Wood6
+    4300190: Wood5
+    4300192: Wood4
+    4300194: polySurface3
+    4300196: Pot4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

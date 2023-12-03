@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 77d5413e74e7af146b07c3a6086a875c
+timeCreated: 1454414678
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box009
+    100002: Box010
+    100004: Box013
+    100006: Box014
+    100008: Cylinder001
+    100010: Object
+    100012: Object006
+    100014: Object007
+    100016: Object008
+    100018: Object009
+    100020: Object010
+    100022: road007
+    100024: road008
+    100026: //RootNode
+    100028: Cylinder003
+    100030: Cylinder004
+    100032: Object011
+    400000: Box009
+    400002: Box010
+    400004: Box013
+    400006: Box014
+    400008: Cylinder001
+    400010: Object
+    400012: Object006
+    400014: Object007
+    400016: Object008
+    400018: Object009
+    400020: Object010
+    400022: road007
+    400024: road008
+    400026: //RootNode
+    400028: Cylinder003
+    400030: Cylinder004
+    400032: Object011
+    2300000: Box009
+    2300002: Box010
+    2300004: Box013
+    2300006: Box014
+    2300008: Cylinder001
+    2300010: Object
+    2300012: Object006
+    2300014: Object007
+    2300016: Object008
+    2300018: Object009
+    2300020: Object010
+    2300022: road007
+    2300024: road008
+    2300026: Cylinder003
+    2300028: Cylinder004
+    2300030: Object011
+    3300000: Box009
+    3300002: Box010
+    3300004: Box013
+    3300006: Box014
+    3300008: Cylinder001
+    3300010: Object
+    3300012: Object006
+    3300014: Object007
+    3300016: Object008
+    3300018: Object009
+    3300020: Object010
+    3300022: road007
+    3300024: road008
+    3300026: Cylinder003
+    3300028: Cylinder004
+    3300030: Object011
+    4300000: Box009
+    4300002: Box010
+    4300004: road007
+    4300006: road008
+    4300008: Cylinder001
+    4300010: Box013
+    4300012: Box014
+    4300014: Object
+    4300016: Object006
+    4300018: Object007
+    4300020: Object008
+    4300022: Object009
+    4300024: Object010
+    4300026: Cylinder003
+    4300028: Object011
+    4300030: Cylinder004
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

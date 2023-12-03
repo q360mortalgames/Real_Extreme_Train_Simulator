@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: f803991a1081b2e4893019fcc87e9870
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Char3
+    100002: //RootNode
+    100004: char3RootMain
+    100006: dummyFace
+    100008: dummyLhand
+    100010: dummyLleg
+    100012: dummyRhand
+    100014: DummyRleg
+    100016: DummyRShoulder
+    100018: dummyRshoulder
+    100020: DummyTorso
+    100022: head
+    100024: L_ankle
+    100026: L_clavicle
+    100028: L_elbow
+    100030: L_knee
+    100032: L_shoulder
+    100034: L_thigh
+    100036: L_toe
+    100038: L_wrist
+    100040: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_1
+    100042: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_2
+    100044: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_3
+    100046: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_1
+    100048: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_2
+    100050: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_3
+    100052: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_1
+    100054: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_2
+    100056: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_3
+    100058: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_1
+    100060: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_2
+    100062: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_3
+    100064: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_1
+    100066: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_2
+    100068: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_3
+    100070: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_1
+    100072: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_2
+    100074: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_3
+    100076: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_1
+    100078: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_2
+    100080: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_3
+    100082: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_1
+    100084: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_2
+    100086: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_3
+    100088: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_1
+    100090: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_2
+    100092: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_3
+    100094: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thigh
+    100096: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_1
+    100098: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_2
+    100100: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_3
+    100102: lowpolycahr3_01:lowpolycahr3:character_models_10:root
+    100104: neck
+    100106: neck2
+    100108: R_ankle
+    100110: R_clavicle
+    100112: R_elbow
+    100114: R_knee
+    100116: R_shoulder
+    100118: R_toe
+    100120: R_wrist
+    100122: spine3
+    100124: spine_1
+    100126: spine_2
+    400000: Char3
+    400002: //RootNode
+    400004: char3RootMain
+    400006: dummyFace
+    400008: dummyLhand
+    400010: dummyLleg
+    400012: dummyRhand
+    400014: DummyRleg
+    400016: DummyRShoulder
+    400018: dummyRshoulder
+    400020: DummyTorso
+    400022: head
+    400024: L_ankle
+    400026: L_clavicle
+    400028: L_elbow
+    400030: L_knee
+    400032: L_shoulder
+    400034: L_thigh
+    400036: L_toe
+    400038: L_wrist
+    400040: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_1
+    400042: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_2
+    400044: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_3
+    400046: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_1
+    400048: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_2
+    400050: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_3
+    400052: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_1
+    400054: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_2
+    400056: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_3
+    400058: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_1
+    400060: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_2
+    400062: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_3
+    400064: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_1
+    400066: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_2
+    400068: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_3
+    400070: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_1
+    400072: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_2
+    400074: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_3
+    400076: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_1
+    400078: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_2
+    400080: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_3
+    400082: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_1
+    400084: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_2
+    400086: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_3
+    400088: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_1
+    400090: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_2
+    400092: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_3
+    400094: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thigh
+    400096: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_1
+    400098: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_2
+    400100: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_3
+    400102: lowpolycahr3_01:lowpolycahr3:character_models_10:root
+    400104: neck
+    400106: neck2
+    400108: R_ankle
+    400110: R_clavicle
+    400112: R_elbow
+    400114: R_knee
+    400116: R_shoulder
+    400118: R_toe
+    400120: R_wrist
+    400122: spine3
+    400124: spine_1
+    400126: spine_2
+    4300000: Char3
+    4300002: dummyFace
+    4300004: DummyTorso
+    4300006: DummyRShoulder
+    4300008: DummyRleg
+    4300010: dummyLleg
+    4300012: dummyLhand
+    4300014: dummyRhand
+    4300016: dummyRshoulder
+    9500000: //RootNode
+    13700000: Char3
+    13700002: dummyFace
+    13700004: dummyLhand
+    13700006: dummyLleg
+    13700008: dummyRhand
+    13700010: DummyRleg
+    13700012: DummyRShoulder
+    13700014: dummyRshoulder
+    13700016: DummyTorso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: char3RootMain
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_toe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_toe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: char3(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Char3
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: dummyFace
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: dummyLhand
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.05, y: 1.05, z: 1.05}
+      transformModified: 1
+    - name: dummyLleg
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.04, y: 1.04, z: 1.04}
+      transformModified: 1
+    - name: dummyRhand
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.05, y: 1.05, z: 1.05}
+      transformModified: 1
+    - name: DummyRleg
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.04, y: 1.04, z: 1.04}
+      transformModified: 1
+    - name: DummyRShoulder
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: dummyRshoulder
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.05, y: 1.05, z: 1.05}
+      transformModified: 1
+    - name: DummyTorso
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: char3RootMain
+      position: {x: 0, y: 0.04199521, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:root
+      position: {x: -0, y: 0.9497686, z: 0}
+      rotation: {x: -0.45593464, y: 0.54048467, z: -0.45593464, w: 0.5404846}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1}
+      transformModified: 1
+    - name: spine_1
+      position: {x: -0.09360144, y: 7.105427e-17, z: 2.0783695e-17}
+      rotation: {x: 0.9959756, y: -0.08962479, z: 0.000000056825936, w: 0.0000000022616395}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+      transformModified: 1
+    - name: spine_2
+      position: {x: -0.1625487, y: 8.437695e-17, z: -3.06805e-17}
+      rotation: {x: 0.000000058012102, y: -0.000000061129946, z: 0.042125467, w: 0.99911237}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999976}
+      transformModified: 1
+    - name: spine3
+      position: {x: -0.13700724, y: -2.3092638e-16, z: -2.4833305e-17}
+      rotation: {x: -0.00000002494563, y: 0.00000003397164, z: 0.10459243, w: 0.99451524}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -0.14544494, y: 0, z: -2.2861907e-17}
+      rotation: {x: -0.96710086, y: 0.2543932, z: 0, w: 0}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000006}
+      transformModified: 1
+    - name: neck2
+      position: {x: -0.044379015, y: -3.5527135e-16, z: 8.960297e-18}
+      rotation: {x: 0.000000026508005, y: -0.000000032767094, z: -0.0001708055, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: head
+      position: {x: -0.041171174, y: 7.0343727e-15, z: 8.313812e-18}
+      rotation: {x: 0.44482443, y: -0.5496646, z: 0.44482443, w: 0.5496647}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: R_clavicle
+      position: {x: -0.108553894, y: -0.0056958734, z: -0.061401974}
+      rotation: {x: -0.36333144, y: 0.5440412, z: -0.47435835, w: -0.58906174}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000011}
+      transformModified: 1
+    - name: R_shoulder
+      position: {x: -0.1250258, y: 0, z: 1.687539e-16}
+      rotation: {x: -0.0032166806, y: -0.072126225, z: -0.04443781, w: 0.99639994}
+      scale: {x: 0.9999999, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: R_elbow
+      position: {x: -0.2768701, y: -5.684342e-16, z: 1.7763568e-17}
+      rotation: {x: -0.000000044272433, y: 7.1054257e-15, z: 3.5527128e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_wrist
+      position: {x: -0.27873778, y: 2.5579537e-15, z: -4.4408918e-17}
+      rotation: {x: -0.0000000050395816, y: -1, z: -0.000000015118768, w: 0.000000059391205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_1
+      position: {x: 0.09971459, y: -0.001191439, z: -0.03954005}
+      rotation: {x: -0.000000027175803, y: 1, z: 0.000000017096628, w: 0.00000003221539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_2
+      position: {x: -0.03652758, y: 3.847248e-11, z: 3.5527136e-17}
+      rotation: {x: 0.000000015118765, y: -0.000000059391198, z: 0.0000000050395923,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_little_3
+      position: {x: -0.027820332, y: -1.4210854e-15, z: -1.0658141e-16}
+      rotation: {x: -0.0000000050395816, y: -1, z: -0.000000015118768, w: 0.000000059391205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_1
+      position: {x: 0.10470213, y: 0.003878717, z: -0.019362805}
+      rotation: {x: -0.000000027175803, y: 1, z: 0.000000017096628, w: 0.00000003221539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_2
+      position: {x: -0.05401276, y: 3.8469637e-11, z: -8.881784e-18}
+      rotation: {x: 0.000000015118765, y: -0.000000059391198, z: 0.0000000050395923,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_ring_3
+      position: {x: -0.033915963, y: 1.9895197e-15, z: 0}
+      rotation: {x: -0.0000000050395816, y: -1, z: -0.000000015118768, w: 0.000000059391205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_1
+      position: {x: 0.107596025, y: 0.0048958054, z: 0.004277988}
+      rotation: {x: -0.000000027175803, y: 1, z: 0.000000017096628, w: 0.00000003221539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_2
+      position: {x: -0.056167677, y: 3.8469637e-11, z: -1.7763568e-17}
+      rotation: {x: 0.000000015118765, y: -0.000000059391198, z: 0.0000000050395923,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_middle_3
+      position: {x: -0.03736354, y: 1.4210854e-15, z: 0}
+      rotation: {x: -0.0000000050395816, y: -1, z: -0.000000015118768, w: 0.000000059391205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_1
+      position: {x: 0.10466505, y: 0.0048958063, z: 0.02711963}
+      rotation: {x: -0.000000027175803, y: 1, z: 0.000000017096628, w: 0.00000003221539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_2
+      position: {x: -0.053767666, y: 3.8469918e-11, z: -1.7763568e-17}
+      rotation: {x: 0.000000015118765, y: -0.000000059391198, z: 0.0000000050395923,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_index_3
+      position: {x: -0.03385469, y: 1.9895197e-15, z: 4.440892e-18}
+      rotation: {x: -0.0000000050395816, y: -1, z: -0.000000015118768, w: 0.000000059391205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_1
+      position: {x: 0.025177661, y: -0.00936667, z: 0.025136683}
+      rotation: {x: 0.057430573, y: 0.9238178, z: 0.019670505, w: 0.37798864}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_2
+      position: {x: -0.045427054, y: 0, z: -2.842171e-16}
+      rotation: {x: 0.036745906, y: 0.03637078, z: 0.003997406, w: 0.9986546}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thumb_3
+      position: {x: -0.050932955, y: -8.5265126e-16, z: 1.4210854e-16}
+      rotation: {x: -0.13234676, y: -0.965735, z: -0.030311473, w: 0.22118202}
+      scale: {x: 0.9999999, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: L_clavicle
+      position: {x: -0.108553894, y: -0.0056958734, z: 0.06144226}
+      rotation: {x: -0.36331397, y: 0.54403174, z: 0.47437623, w: 0.5890668}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000004}
+      transformModified: 1
+    - name: L_shoulder
+      position: {x: -0.12498608, y: 0, z: -2.6645352e-17}
+      rotation: {x: 0.003218773, y: 0.072149284, z: -0.04445189, w: 0.9963977}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: L_elbow
+      position: {x: -0.2768701, y: -2.842171e-16, z: -1.7763568e-17}
+      rotation: {x: 0.000000044272486, y: 3.4681275e-15, z: 5.145711e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_wrist
+      position: {x: -0.27873778, y: -1.1368684e-15, z: 6.217249e-17}
+      rotation: {x: -0.000000010079147, y: 7.02084e-15, z: 5.145705e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_1
+      position: {x: -0.023785133, y: -0.010028993, z: 0.026209358}
+      rotation: {x: 0.014897148, y: 0.36984253, z: 0.050116505, w: 0.92762226}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_2
+      position: {x: -0.04513938, y: 0, z: -4.2632563e-16}
+      rotation: {x: -0.030329479, y: -0.03698433, z: 0.0058345567, w: 0.9988384}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_thumb_3
+      position: {x: -0.05178676, y: -8.5265126e-16, z: 1.4210854e-16}
+      rotation: {x: -0.02925511, y: -0.22150345, z: -0.12762852, w: 0.9663288}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_1
+      position: {x: -0.103945345, y: 0.0061476063, z: 0.027054923}
+      rotation: {x: -0.000000010079174, y: 6.32827e-15, z: -6.8551935e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_2
+      position: {x: -0.055492897, y: 2.842171e-16, z: 2.2204459e-17}
+      rotation: {x: -0.0000000050395896, y: 0.000000059391216, z: 0.000000005039583,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_index_3
+      position: {x: -0.033911195, y: 5.684342e-16, z: -2.2204459e-17}
+      rotation: {x: -0.000000005039586, y: -0.0000000593912, z: -0.0000000050395927,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_1
+      position: {x: -0.10463907, y: 0.006147605, z: 0.0042978725}
+      rotation: {x: -0.000000010079174, y: 6.32827e-15, z: -6.8551935e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_2
+      position: {x: -0.057920903, y: -2.842171e-16, z: 8.881784e-18}
+      rotation: {x: -0.0000000050395896, y: 0.000000059391216, z: 0.000000005039583,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_middle_3
+      position: {x: -0.03713173, y: 1.1368684e-15, z: 1.7763568e-17}
+      rotation: {x: -0.000000005039586, y: -0.0000000593912, z: -0.0000000050395927,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_1
+      position: {x: -0.103251636, y: 0.0032113248, z: -0.01875542}
+      rotation: {x: -0.000000010079174, y: 6.32827e-15, z: -6.8551935e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_2
+      position: {x: -0.054452322, y: -2.842171e-16, z: 4.4408918e-17}
+      rotation: {x: -0.0000000050395896, y: 0.000000059391216, z: 0.000000005039583,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_ring_3
+      position: {x: -0.03713173, y: 8.5265126e-16, z: 8.881784e-18}
+      rotation: {x: -0.000000005039586, y: -0.0000000593912, z: -0.0000000050395927,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_1
+      position: {x: -0.10012992, y: -0.0007834791, z: -0.039671414}
+      rotation: {x: -0.000000010079174, y: 6.32827e-15, z: -6.8551935e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_2
+      position: {x: -0.03676256, y: 1.7053025e-15, z: 1.7763568e-17}
+      rotation: {x: -0.0000000050395896, y: 0.000000059391216, z: 0.000000005039583,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:L_little_3
+      position: {x: -0.028113425, y: -1.9895197e-15, z: 1.7763568e-17}
+      rotation: {x: -0.000000005039586, y: -0.0000000593912, z: -0.0000000050395927,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_thigh
+      position: {x: 0.032264553, y: -0.0055152476, z: -0.09633789}
+      rotation: {x: -0.07675142, y: -0.99705034, z: 0.0000014501726, w: 0.00000015534594}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999976}
+      transformModified: 1
+    - name: L_knee
+      position: {x: -0.41765845, y: -5.6177284e-16, z: 1.5987211e-16}
+      rotation: {x: 0.0032713448, y: 0.00010584591, z: -0.016713494, w: 0.99985504}
+      scale: {x: 0.99999976, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: L_ankle
+      position: {x: -0.39203167, y: 2.4868996e-16, z: -8.8817837e-17}
+      rotation: {x: 0.9482808, y: 0.31733707, z: 0.0021063208, w: -0.0074983034}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+      transformModified: 1
+    - name: L_toe
+      position: {x: -0.14741127, y: -3.5527136e-17, z: 4.2632563e-16}
+      rotation: {x: -0.33455417, y: -0.63177204, z: -0.3272324, w: 0.6179456}
+      scale: {x: 0.9999999, y: 0.9999995, z: 1.0000002}
+      transformModified: 1
+    - name: lowpolycahr3_01:lowpolycahr3:character_models_10:R_thigh
+      position: {x: 0.032264553, y: -0.0055152476, z: 0.09633789}
+      rotation: {x: -0.07675146, y: -0.9970503, z: 0.0000021517992, w: 0.0000001700175}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+      transformModified: 1
+    - name: R_knee
+      position: {x: -0.41765845, y: -1.1191048e-15, z: -3.5527136e-17}
+      rotation: {x: 0.0032714177, y: 0.00010593903, z: -0.016713597, w: 0.999855}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: R_ankle
+      position: {x: -0.39203167, y: 1.1990408e-16, z: -5.3290704e-17}
+      rotation: {x: 0.94828075, y: 0.31733721, z: 0.0021065923, w: -0.007498927}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999999}
+      transformModified: 1
+    - name: R_toe
+      position: {x: -0.14741127, y: 1.5099033e-16, z: -1.5099032e-15}
+      rotation: {x: -0.33455455, y: -0.6317729, z: -0.32723188, w: 0.61794466}
+      scale: {x: 1, y: 0.99999964, z: 1.0000005}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

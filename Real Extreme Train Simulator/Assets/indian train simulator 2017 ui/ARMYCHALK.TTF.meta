@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3251440d138f1c449874b9fe8336eb42
+timeCreated: 1489658435
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ArmyChalk
+  fontNames:
+  - ArmyChalk
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
