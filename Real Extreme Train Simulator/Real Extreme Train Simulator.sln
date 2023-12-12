@@ -5,9 +5,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{7DD83D13-2E26-34C7-2E66-6C0FBC342E0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Common", "Google.Play.Common.csproj", "{875D578C-D0C0-5FA3-588F-6BB239A9CFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{0E427447-DCA8-E00C-EF0F-F91CF0B89681}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMobileAds.Editor", "GoogleMobileAds.Editor.csproj", "{A307F37D-B59F-5702-1C21-E809FC360C2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2F3B9A9F-D744-3784-C062-4BB3BE552FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{C8FEF9E8-FEBE-4B7E-DF80-D814F2C0C5DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{7DD83D13-2E26-34C7-2E66-6C0FBC342E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD83D13-2E26-34C7-2E66-6C0FBC342E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD83D13-2E26-34C7-2E66-6C0FBC342E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875D578C-D0C0-5FA3-588F-6BB239A9CFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875D578C-D0C0-5FA3-588F-6BB239A9CFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875D578C-D0C0-5FA3-588F-6BB239A9CFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875D578C-D0C0-5FA3-588F-6BB239A9CFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E427447-DCA8-E00C-EF0F-F91CF0B89681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E427447-DCA8-E00C-EF0F-F91CF0B89681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E427447-DCA8-E00C-EF0F-F91CF0B89681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E427447-DCA8-E00C-EF0F-F91CF0B89681}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A307F37D-B59F-5702-1C21-E809FC360C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A307F37D-B59F-5702-1C21-E809FC360C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A307F37D-B59F-5702-1C21-E809FC360C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,6 +45,10 @@ Global
 		{2F3B9A9F-D744-3784-C062-4BB3BE552FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F3B9A9F-D744-3784-C062-4BB3BE552FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F3B9A9F-D744-3784-C062-4BB3BE552FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FEF9E8-FEBE-4B7E-DF80-D814F2C0C5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FEF9E8-FEBE-4B7E-DF80-D814F2C0C5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FEF9E8-FEBE-4B7E-DF80-D814F2C0C5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FEF9E8-FEBE-4B7E-DF80-D814F2C0C5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
