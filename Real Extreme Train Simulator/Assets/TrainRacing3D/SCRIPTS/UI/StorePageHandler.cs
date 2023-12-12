@@ -27,7 +27,6 @@ public class StorePageHandler : MonoBehaviour
 
 	void TotalCoinInfo ()
 	{
-
 		if (GameManager.Instance && GameManager.Instance.totalCoins != tempTotalCoins) {
 			tempTotalCoins = GameManager.Instance.totalCoins;
 			_totalCoins.text = tempTotalCoins.ToString ();
@@ -36,13 +35,19 @@ public class StorePageHandler : MonoBehaviour
 		scrollRect.horizontalNormalizedPosition = 0f;
 	}
 
-//	void Update ()
-//	{
-//
-//		if (GlobalVariables.isBackNavigation && Input.GetKeyUp (KeyCode.Escape)) {
-//			UIHandler.Instance.RequestToEnableObject (UIHandler.Instance.previousPage);
-//		}
-//	}
+	public void UpdateCoins()
+	{
+		_totalCoins.text = GameManager.Instance.totalCoins.ToString();
+	}
+
+
+	//	void Update ()
+	//	{
+	//
+	//		if (GlobalVariables.isBackNavigation && Input.GetKeyUp (KeyCode.Escape)) {
+	//			UIHandler.Instance.RequestToEnableObject (UIHandler.Instance.previousPage);
+	//		}
+	//	}
 
 
 	void OnEnable ()

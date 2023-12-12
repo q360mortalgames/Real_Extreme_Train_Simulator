@@ -465,6 +465,7 @@ public class GamePlayManager : MonoBehaviour
 					PlayerPrefs.SetInt ("TutorialComplete", 1);
 					ChangeInstructionState (e_INSTRUCTION_STATE.NoInstruction);
 					_TutorialComplete.CallAllAnims ();
+					UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("GameUI");
 				}
 
 			} else if ((_str == "PauseButton") && !IsInstructionAvlaiable) {
@@ -477,16 +478,19 @@ public class GamePlayManager : MonoBehaviour
 			} else if ((_str == "ReverseBtn") && !IsInstructionAvlaiable) {
 				/*StopTrainImediatly ();*/
 				SoundController.Instance.OnButtonClick ();
-				StopTrainImediatly ();
-				TakeReverseDirection ();
 
-                    //#if VIDEOTESTING || UNITY_EDITOR
-                    //VWatchedContinue();
-                    //else
-                    //GoogleMobileAdsDemoScript.mee.ShowRewardBasedVideo();
-                    //#endif
-                    //	Admanager.instance.ShowRewardedAd();
-                  //  AdManager.instance.showRewardVideo();   venkat
+				AdsManagerRwd.Instance.ShowRewardedAd((bool status) => {
+					StopTrainImediatly();
+					TakeReverseDirection();
+				});
+
+					//#if VIDEOTESTING || UNITY_EDITOR
+					//VWatchedContinue();
+					//else
+					//GoogleMobileAdsDemoScript.mee.ShowRewardBasedVideo();
+					//#endif
+					//	Admanager.instance.ShowRewardedAd();
+					//  AdManager.instance.showRewardVideo();   venkat
 				}
 			else if((_str == "CloseCrash") && !IsInstructionAvlaiable) {
 				//levelCrashed = false;
@@ -1177,11 +1181,14 @@ public class GamePlayManager : MonoBehaviour
 
 	[HideInInspector]public bool levelCrashed = false;
 	public void OnLevelCrashed()
-	{		
-		StopTrainImediatly ();
-		SetVisibleLayer (_LevelCrashed.transform);
-		_LevelCrashed.CallAllAnims ();
-		levelCrashed = true;
+	{
+		if (_LevelCrashed != null)
+		{
+			StopTrainImediatly();
+			SetVisibleLayer(_LevelCrashed.transform);
+			_LevelCrashed.CallAllAnims();
+			levelCrashed = true;
+		}
 		Debug.Log ("--OnLevelCrashed");
 
 	}

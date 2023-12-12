@@ -10,10 +10,11 @@ public class AdsManager : MonoBehaviour
     InterstitialAd interstitialAd;
     public string _adUnitId;
     public static AdsManager Instance;
-
+    private bool mShowAds = true;
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(SystemInfo.deviceUniqueIdentifier);
         DontDestroyOnLoad(this.gameObject);
         if (Instance != null && Instance != this)
         {
@@ -24,27 +25,42 @@ public class AdsManager : MonoBehaviour
             Instance = this;
         }
 
+        mShowAds = PlayerPrefs.GetInt("NO_ADS") == 0;
+
         MobileAds.Initialize((InitializationStatus initStatus) =>
         {
+            if(mShowAds)
             LoadInterstitialAd();
+            AdsManagerRwd.Instance.LoadRewardedAd();
         });
-
     }
 
-    public void LoadInterstitialAd()
+    public void OnPurchasedRemoveAds()
     {
+        PlayerPrefs.SetInt("NO_ADS", 1);
         // Clean up the old ad before loading a new one.
         if (interstitialAd != null)
         {
             interstitialAd.Destroy();
             interstitialAd = null;
         }
+    }
+  
+    public void LoadInterstitialAd()
+    {
+            // Clean up the old ad before loading a new one.
+        if (interstitialAd != null)
+        {
+            interstitialAd.Destroy();
+            interstitialAd = null;
+        }
+        if (!mShowAds)
+            return;
 
         Debug.Log("Loading the interstitial ad.");
 
         // create our request used to load the ad.
         var adRequest = new AdRequest.Builder()
-                .AddKeyword("unity-admob-sample")
                 .Build();
 
         // send the request to load the ad.
@@ -67,8 +83,12 @@ public class AdsManager : MonoBehaviour
             });
     }
 
+    [ContextMenu("ShowAD")]
     public void ShowAd()
     {
+        if (!mShowAds)
+            return;
+
         if (interstitialAd != null && interstitialAd.CanShowAd())
         {
             Debug.Log("Showing interstitial ad.");
@@ -119,11 +139,5 @@ public class AdsManager : MonoBehaviour
                            "with error : " + error);
             LoadInterstitialAd();
         };
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -11,7 +11,7 @@ public class levelselectionNew : MonoBehaviour {
 	[SerializeField] ScrollRect scrollRect;
 	public Image[] AllLevels;
 	public GameObject[] levelInfo;
-
+	public GameObject UnlockAlllevelsBtn;
 	public int[] Xpdata,stopCount,Timeval;
 
 	public static levelselectionNew mee;
@@ -54,7 +54,8 @@ public class levelselectionNew : MonoBehaviour {
 
 	void CheckLevelLocks(){
 		int lnum;
-		for(int i=0;i<AllLevels.Length;i++){
+		UnlockAlllevelsBtn.SetActive(PlayerPrefs.GetInt(GlobalVariables.sTotalUnlockedLevels) < 10);
+		for (int i=0;i<AllLevels.Length;i++){
 			if ((i + 1) <= PlayerPrefs.GetInt (GlobalVariables.sTotalUnlockedLevels, 1)) {
 				//AllLevels[i].GetComponent<Button> ().interactable	= true;
 				AllLevels[i].gameObject.transform.GetChild(0).gameObject.SetActive (true);

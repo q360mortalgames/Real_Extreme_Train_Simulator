@@ -106,9 +106,12 @@ public class TrainSelectionHandler : MonoBehaviour {
 		TEX_LOCK.gameObject.SetActive (!isPlayBtnEnable);
 	}
 
-	bool IsUnlockAllTrains(){
-		
-		if (GameManager.Instance.TRAINS [2].Equals ("1") && GameManager.Instance.TRAINS [3].Equals ("1") && GameManager.Instance.TRAINS [4].Equals ("1") && GameManager.Instance.TRAINS [5].Equals ("1") && GameManager.Instance.TRAINS [6].Equals ("1")) {
+	bool IsUnlockAllTrains()
+	{
+		if (GameManager.Instance.TRAINS[2].Equals("1") && GameManager.Instance.TRAINS[3].Equals("1")
+			&& GameManager.Instance.TRAINS[4].Equals("1") && GameManager.Instance.TRAINS[5].Equals("1")
+			&& GameManager.Instance.TRAINS[6].Equals("1"))
+		{
 			return false;
 		}
 		return true;
@@ -136,10 +139,10 @@ public class TrainSelectionHandler : MonoBehaviour {
 		StartCoroutine(ieRequestToLockTexture());
 
 		BTN_PLAY.gameObject.SetActive (isPlayBtnEnable);
-		BTN_BUY.gameObject.SetActive (GlobalVariables.i_CurrentTrainSelected !=1?!isPlayBtnEnable:false);
+		BTN_BUY.gameObject.SetActive (!isPlayBtnEnable);
 
-		BTN_UNLOCK_FB.gameObject.SetActive (GlobalVariables.i_CurrentTrainSelected == 1 && GameManager.Instance.TRAINS [GlobalVariables.i_CurrentTrainSelected].Equals ("0")?true:false);
-
+		//BTN_UNLOCK_FB.gameObject.SetActive (GlobalVariables.i_CurrentTrainSelected == 1 && GameManager.Instance.TRAINS [GlobalVariables.i_CurrentTrainSelected].Equals ("0")?true:false);
+		BTN_UNLOCK_FB.gameObject.SetActive(false);
 		_trainCost.text = TrainCost[GlobalVariables.i_CurrentTrainSelected].ToString();
 
 		#endregion
@@ -208,9 +211,7 @@ public class TrainSelectionHandler : MonoBehaviour {
 			
 			Debug.Log ("BTN_BUY :" + GlobalVariables.i_CurrentTrainSelected);
 			GameManager.Instance.RequestToBuyTrain (TrainCost [GlobalVariables.i_CurrentTrainSelected], GlobalVariables.i_CurrentTrainSelected, GAME_STATE.TRAIN_SELECTION);
-            
-
-
+			ResetData();
 			break;
 
 		case "BTN_BACK":			
@@ -267,7 +268,8 @@ public class TrainSelectionHandler : MonoBehaviour {
 
 			break;
 
-		case "BTN_PLAY":			
+		case "BTN_PLAY":
+				AdsManager.Instance.ShowAd();
 			StartCoroutine (RequestToLoadNextScene (0f,"LoadingPage",GlobalVariables.loadScene));
 			break;
 
