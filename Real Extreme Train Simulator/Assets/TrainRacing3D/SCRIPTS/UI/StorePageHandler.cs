@@ -32,9 +32,25 @@ public class StorePageHandler : MonoBehaviour
 			_totalCoins.text = tempTotalCoins.ToString ();
 			PlayerPrefs.SetInt ("totalCoins", GameManager.Instance.totalCoins);
 		}
-		scrollRect.horizontalNormalizedPosition = 0f;
+		//scrollRect.horizontalNormalizedPosition = 0f;
+		if (GlobalVariables.CoinsClicked)
+		{
+			GlobalVariables.CoinsClicked = false;
+			Invoke(nameof(OnCoinClicked), 0.1f);
+		}
+		else
+		{
+			Invoke(nameof(ResetScrollRect), 0.1f);
+		}
 	}
-
+	private void ResetScrollRect()
+	{
+		if (scrollRect != null) scrollRect.horizontalNormalizedPosition = 0f;
+	}
+	public void OnCoinClicked()
+	{
+		if (scrollRect != null) scrollRect.horizontalNormalizedPosition = 1f;
+	}
 	public void UpdateCoins()
 	{
 		_totalCoins.text = GameManager.Instance.totalCoins.ToString();

@@ -269,13 +269,16 @@ public class TrainSelectionHandler : MonoBehaviour {
 			break;
 
 		case "BTN_PLAY":
+#if !UNITY_EDITOR
 				AdsManager.Instance.ShowAd();
-			StartCoroutine (RequestToLoadNextScene (0f,"LoadingPage",GlobalVariables.loadScene));
+#endif
+				StartCoroutine (RequestToLoadNextScene (0f,"LoadingPage",GlobalVariables.loadScene));
 			break;
 
 		case "TEX_COINS_PLUS":
 			GlobalVariables.iMenuEnableIndex = 2;
-			StartCoroutine (RequestToLoadNextScene (0f,"GameUI","GameUI"));
+				GlobalVariables.CoinsClicked = true;
+				StartCoroutine (RequestToLoadNextScene (0f,"GameUI","GameUI"));
 			break;
 
 		case "BTN_Gift":

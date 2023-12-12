@@ -8,7 +8,6 @@ public class levelselectionNew : MonoBehaviour {
 
 	[SerializeField] Text _totalCoins;
 
-	[SerializeField] ScrollRect scrollRect;
 	public Image[] AllLevels;
 	public GameObject[] levelInfo;
 	public GameObject UnlockAlllevelsBtn;
@@ -18,7 +17,6 @@ public class levelselectionNew : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		mee = this;
-		scrollRect.horizontalNormalizedPosition = 0;
 
 		if (!PlayerPrefs.HasKey (GlobalVariables.sTotalUnlockedLevels)){
 			PlayerPrefs.SetInt (GlobalVariables.sTotalUnlockedLevels, 1);
@@ -47,14 +45,13 @@ public class levelselectionNew : MonoBehaviour {
 	}
 
 	public void unlockAllLevels(){
-		PlayerPrefs.SetInt (GlobalVariables.sTotalUnlockedLevels, 10);
-		PlayerPrefs.SetInt ("TotalLevelsToUnlock", 10);
+		PlayerPrefs.SetInt (GlobalVariables.sTotalUnlockedLevels, GlobalVariables.iTotalLevels);
+		PlayerPrefs.SetInt ("TotalLevelsToUnlock", GlobalVariables.iTotalLevels);
 		CheckLevelLocks ();
 	}
-
-	void CheckLevelLocks(){
+	public void CheckLevelLocks(){
 		int lnum;
-		UnlockAlllevelsBtn.SetActive(PlayerPrefs.GetInt(GlobalVariables.sTotalUnlockedLevels) < 10);
+		UnlockAlllevelsBtn.SetActive(PlayerPrefs.GetInt(GlobalVariables.sTotalUnlockedLevels) < GlobalVariables.iTotalLevels);
 		for (int i=0;i<AllLevels.Length;i++){
 			if ((i + 1) <= PlayerPrefs.GetInt (GlobalVariables.sTotalUnlockedLevels, 1)) {
 				//AllLevels[i].GetComponent<Button> ().interactable	= true;
@@ -103,7 +100,7 @@ public class levelselectionNew : MonoBehaviour {
 				AllLevels [i].gameObject.transform.GetChild (5).gameObject.SetActive (true);
 
 
-				AllLevels [i].gameObject.GetComponent<Image> ().color = AllLevels [i].gameObject.transform.parent.parent.gameObject.GetComponent<Image> ().color;
+				AllLevels [i].gameObject.GetComponent<Image> ().color = AllLevels [i].gameObject.transform.parent.gameObject.GetComponent<Image> ().color;
 			}
 
 
@@ -141,7 +138,7 @@ public class levelselectionNew : MonoBehaviour {
 
 	
 		if(_click.name=="TEX_COINS_PLUS"){
-
+			GlobalVariables.CoinsClicked = true;
 			UIHandler.Instance.RequestToEnableObject (2);
 
 		}
@@ -174,56 +171,60 @@ public class levelselectionNew : MonoBehaviour {
 			levelInfo [0].SetActive (false);
 		}
 
+		if (_click.name.Contains("level"))
+		{
+			print(_click.name);
+			int levelNum = int.Parse(_click.name.Substring(5, _click.name.Length - 5)) - 1;
+			print(levelNum + " : " + _click.name.Substring(5, _click.name.Length - 5));
+
+			for (int i = 0; i < AllLevels.Length; i++)
+			{
+				//print (i+"--");
+				AllLevels[i].transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
+
+			}
+
+			AllLevels[levelNum].transform.localScale = new Vector3(1, 1, 1);
+
+			if (!_click.gameObject.transform.GetChild(5).gameObject.activeSelf)
+			{
 
 
-		print (_click.name);
-		int levelNum = int.Parse (_click.name.Substring (5, _click.name.Length - 5))-1;
-		print(levelNum+ " : "+_click.name.Substring (5, _click.name.Length - 5));
+				mi_XP1 = Mathf.CeilToInt(Xpdata[levelNum] * 0.5f);
+				mi_XP2 = Mathf.CeilToInt(Xpdata[levelNum] * 0.85f);
+				mi_XP3 = Xpdata[levelNum];
 
-		for (int i = 0; i < AllLevels.Length; i++) {
-			//print (i+"--");
-			AllLevels [i].transform.localScale = new Vector3 (0.8f,0.8f,0.8f);
+				print("level Info krishna... level number...................");
+				levelInfo[0].SetActive(true);
 
+				levelInfo[0].gameObject.transform.GetChild(2).gameObject.GetComponent<Text>().text = "" + mi_XP1;
+				levelInfo[0].gameObject.transform.GetChild(3).gameObject.GetComponent<Text>().text = "" + mi_XP2;
+				levelInfo[0].gameObject.transform.GetChild(4).gameObject.GetComponent<Text>().text = "" + mi_XP3;
+				levelInfo[0].gameObject.transform.GetChild(5).gameObject.GetComponent<Text>().text = "" + stopCount[levelNum];
+				levelInfo[0].gameObject.transform.GetChild(7).gameObject.GetComponent<Text>().text = "LEVEL  " + (levelNum + 1);
+
+
+				int timerVal = Timeval[levelNum];
+				int min = Mathf.FloorToInt(timerVal / 60f);
+				int sec = timerVal % 60;
+
+				GlobalVariables.iCurrentLevel = levelNum + 1;
+				OpenLevelNUm = levelNum;
+				levelInfo[0].gameObject.transform.GetChild(6).gameObject.GetComponent<Text>().text = "" + min.ToString("00") + ":" + sec.ToString("00");
+				//iTween.MoveTo (scrollRect.gameObject,iTween.Hash("y",levelInfo [2].transform.position.y, "time", 0.2f, "easetype", iTween.EaseType.linear));
+
+			}
+			else
+			{
+
+				print("els condition ...................");
+
+				levelInfo[0].SetActive(false);
+				//			levelInfo [0].SetActive (true);
+				//iTween.MoveTo (scrollRect.gameObject,iTween.Hash("y",levelInfo [1].transform.position.y, "time", 0.2f, "easetype", iTween.EaseType.linear));
+				//scrollRect.transform.position = levelInfo [1].transform.position; 
+			}
 		}
-
-		AllLevels [levelNum].transform.localScale = new Vector3 (1,1,1);
-
-		if (!_click.gameObject.transform.GetChild (5).gameObject.activeSelf) {
-
-
-			mi_XP1	= Mathf.CeilToInt (Xpdata[levelNum] * 0.5f);
-			mi_XP2	= Mathf.CeilToInt (Xpdata[levelNum] * 0.85f);
-			mi_XP3	= Xpdata[levelNum];
-
-			print ("level Info krishna... level number...................");
-			levelInfo [0].SetActive (true);
-
-			levelInfo [0].gameObject.transform.GetChild (2).gameObject.GetComponent<Text> ().text=""+mi_XP1;
-			levelInfo [0].gameObject.transform.GetChild (3).gameObject.GetComponent<Text> ().text=""+mi_XP2;
-			levelInfo [0].gameObject.transform.GetChild (4).gameObject.GetComponent<Text> ().text=""+mi_XP3;
-			levelInfo [0].gameObject.transform.GetChild (5).gameObject.GetComponent<Text> ().text=""+stopCount[levelNum];
-			levelInfo [0].gameObject.transform.GetChild (7).gameObject.GetComponent<Text> ().text="LEVEL  "+(levelNum+1);
-
-
-			int timerVal	= Timeval[levelNum];
-			int min	= Mathf.FloorToInt (timerVal / 60f);
-			int sec	= timerVal % 60;
-
-			GlobalVariables.iCurrentLevel = levelNum + 1;
-			OpenLevelNUm = levelNum;
-			levelInfo [0].gameObject.transform.GetChild (6).gameObject.GetComponent<Text> ().text=""+min.ToString ("00") + ":" + sec.ToString ("00");
-			iTween.MoveTo (scrollRect.gameObject,iTween.Hash("y",levelInfo [2].transform.position.y, "time", 0.2f, "easetype", iTween.EaseType.linear));
-
-		} else {
-
-			print ("els condition ...................");
-
-			levelInfo [0].SetActive (false);
-//			levelInfo [0].SetActive (true);
-			iTween.MoveTo (scrollRect.gameObject,iTween.Hash("y",levelInfo [1].transform.position.y, "time", 0.2f, "easetype", iTween.EaseType.linear));
-			//scrollRect.transform.position = levelInfo [1].transform.position; 
-		}
-
 	}
 	public void OpenDetails(){
 

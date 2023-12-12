@@ -171,7 +171,7 @@ public static class GlobalVariables
 	public static string sTotalUnlockedLevels	= "UnloackedLevelsCount";
 	public static int iNextLevelToUnlock = 0;
 	public static int iCurrentLevel = 1;
-	public static int iTotalLevels = 10;
+	public static int iTotalLevels = 12;
 
 	// TRAINS
 	public static string sTotalTrainsUnlocked	= "UnlockedTrainCount";
@@ -235,7 +235,7 @@ public static class GlobalVariables
 	public static int iShareLevel7	= 34;
 	public static int iShareLevel8	= 35;
 
-
+	public static bool CoinsClicked = true;
 
 
 }

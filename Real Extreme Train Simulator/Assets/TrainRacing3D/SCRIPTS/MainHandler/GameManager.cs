@@ -232,7 +232,8 @@ public class GameManager : MonoBehaviour
 			SetCurrentValueToDB (_trainID, _gState);
 		} else {
 			Debug.Log ("Sorry......... krishna");
-//			UIHandler.Instance.RequestToEnableObject (2);
+			//			UIHandler.Instance.RequestToEnableObject (2);
+			TrainSelectionHandler.Instance.OnClick("TEX_COINS_PLUS");
 		}
 	}
 
