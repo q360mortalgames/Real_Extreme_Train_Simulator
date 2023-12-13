@@ -203,13 +203,15 @@ public class TrainCollisionHandler : MonoBehaviour
 
 		if (_ObjTag == _sObstacleTag) {
 
-			//TrainMovementScript.Instance.OnCollisionDisableLimits ();
+            //TrainMovementScript.Instance.OnCollisionDisableLimits ();
 
-			if (SoundController.Instance) {
-				SoundController.Instance.TrainCrash ();
-			}
+            if (SoundController.Instance)
+            {
+                SoundController.Instance.StopTrainSource();
+                SoundController.Instance.TrainCrash();
+            }
 
-			CreateParticleOnCollision (_col.contacts [0].point);
+            CreateParticleOnCollision (_col.contacts [0].point);
 
 			/*_col.gameObject.AddComponent<Rigidbody> ();
 			_col.gameObject.GetComponent<Rigidbody> ().mass	= 500;

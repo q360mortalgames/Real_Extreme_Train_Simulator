@@ -112,6 +112,15 @@ public class SoundController : MonoBehaviour {
 		_TrainSource.Play();
 	}
 
+	public void StopTrainSource()
+	{
+		_TrainSource.gameObject.SetActive(false);
+	}
+	public void EnableTrainSource()
+	{
+		_TrainSource.gameObject.SetActive(true);
+	}
+
 	public void playTrainCrowd()
 	{
 		_TrainSource.GetComponent<AudioSource>().clip=TrainCrowd;

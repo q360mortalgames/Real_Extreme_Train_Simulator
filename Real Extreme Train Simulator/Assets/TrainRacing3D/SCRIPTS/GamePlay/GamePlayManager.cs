@@ -786,6 +786,8 @@ public class GamePlayManager : MonoBehaviour
 
 	public void SetWarningText (string _str, Color _color, int delay = 0)
 	{
+		Debug.Log("show warning: "+ _str);
+
 		_WarningText.text	= _str;
 		_WarningText.gameObject.GetComponent<RectTransform> ().anchoredPosition3D	= Vector3.zero;
 		OnWarningTextYPosition	= _WarningText.gameObject.transform.position.y;
@@ -1163,7 +1165,7 @@ public class GamePlayManager : MonoBehaviour
 	//	Admanager.instance.ShowFullScreenAd();
 		SetCameraBasedOnTag (10);
 
-		SoundController.Instance.PlayLevelFailed ();
+		//SoundController.Instance.PlayLevelFailed ();
 		GlobalVariables.mGameState	= eGAME_STATE.LevelFailed;
 		mb_isLevelWin	= false;
 
@@ -1190,6 +1192,7 @@ public class GamePlayManager : MonoBehaviour
 			levelCrashed = true;
 		}
 		Debug.Log ("--OnLevelCrashed");
+		SoundController.Instance.StopTrainSource();
 
 	}
 
@@ -1863,6 +1866,7 @@ public class GamePlayManager : MonoBehaviour
 		//TrainCollisionHandler.mee.mb_IsStationTriggered = false;
 		SetInviisbleLayer (_LevelCrashed.transform);
 		Debug.Log("--Change Direction to backwards");
+		SoundController.Instance.EnableTrainSource();
 		UnFreezeRigidBodies ();
 		isReverse = true;
 		f_DiffInSpeed = 1f;
